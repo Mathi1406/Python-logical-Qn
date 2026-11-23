@@ -18,3 +18,6 @@ print("Total Sum:",sum)
 number=int(input("Enter a Number:"))
 for i in range(1,11):
     print(number,"*",i,number*i)
+#6. Reverse Counting 
+for i in range(100,0,-1):
+    print(i)
