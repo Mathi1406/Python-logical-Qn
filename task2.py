@@ -21,3 +21,11 @@ for i in range(1,11):
 #6. Reverse Counting 
 for i in range(100,0,-1):
     print(i)
+#7. Count Digits 
+number=int(input("Enter Your Number:"))
+count=0
+while number>0:
+    count=count+1
+    number=number//10
+print("Total Digits:",count)
+  
