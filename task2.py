@@ -14,4 +14,7 @@ sum=0
 for i in range(1,101):
     sum=sum+i
 print("Total Sum:",sum)
-
+#5. Multiplication Table 
+number=int(input("Enter a Number:"))
+for i in range(1,11):
+    print(number,"*",i,number*i)
