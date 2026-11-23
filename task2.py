@@ -5,3 +5,7 @@ for i in range(1,11):
 for i in range(1,51):
     if i%2==0:
       print(i)
+#3. Print Odd Numbers 
+for i in range(1,101):
+    if i%2!=0:
+        print(i)
