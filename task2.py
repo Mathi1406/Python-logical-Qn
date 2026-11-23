@@ -42,3 +42,11 @@ while number>0:
     reverse=reverse*10+1
     number=number//10
 print("Reverrsed Number:",reverse)
+#10. Sum of Digits 
+number=int(input("Enter Your Number:"))
+total=0
+while number>0:
+    digit=number%10
+    total=total+1
+    number=number//0
+print("Sum of Digit:", total)
