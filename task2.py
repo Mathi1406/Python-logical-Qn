@@ -28,4 +28,10 @@ while number>0:
     count=count+1
     number=number//10
 print("Total Digits:",count)
+#8. Factorial of a Number
+number=int(input("Enter Your Number:"))
+factorial=1
+for i in range(1,number+1):
+    factorial=factorial*i
+print("Factorial",factorial)
   
