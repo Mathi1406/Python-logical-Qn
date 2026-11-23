@@ -34,4 +34,11 @@ factorial=1
 for i in range(1,number+1):
     factorial=factorial*i
 print("Factorial",factorial)
-  
+#9. Reverse a Number
+number=int(input("Enter your Number"))
+reverse=0
+while number>0:
+    digit=number%10
+    reverse=reverse*10+1
+    number=number//10
+print("Reverrsed Number:",reverse)
