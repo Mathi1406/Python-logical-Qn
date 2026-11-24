@@ -48,7 +48,7 @@ total=0
 while number>0:
     digit=number%10
     total=total+1
-    number=number//0
+    number=number//10
 print("Sum of Digit:", total)
 #11. Palindrome Number
 number=int(input("Enter Your Number:"))
@@ -72,4 +72,13 @@ if count==2:
     print("Prime number")
 else:
     print("Its Not Prime Number")
+#13. Fibonacci Series 
+number=int(input("Enter Your  fibonacci Number:"))
+x=0
+y=1
+for i in range(number):
+    print(x,end="")
+    z=x+y
+    x=y
+    y=z
     
