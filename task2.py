@@ -62,3 +62,14 @@ if original==reverse:
     print("Its Palindrome")
 else:
     print("Its Not Palindrome")
+#12. Prime Number 
+number=int(input("Enter Your Number:"))
+count=0
+for i in range(1,number+1):
+    if number%i==0:
+        count=count+1
+if count==2:
+    print("Prime number")
+else:
+    print("Its Not Prime Number")
+    
