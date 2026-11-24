@@ -74,6 +74,7 @@ else:
     print("Its Not Prime Number")
 #13. Fibonacci Series 
 number=int(input("Enter Your  fibonacci Number:"))
+
 x=0
 y=1
 for i in range(number):
@@ -81,4 +82,5 @@ for i in range(number):
     z=x+y
     x=y
     y=z
+    
     
