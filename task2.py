@@ -82,7 +82,7 @@ for i in range(number):
     z=x+y
     x=y
     y=z
-    
+
 #14. Find the Largest Number
 largest=0
 for i in range(5):
@@ -90,5 +90,9 @@ for i in range(5):
     if number>largest:
         largest=number
 print("Largest Number:",largest)
+#15. Star Pattern
+for i in range(1,6):
+    for j in range(i):
+        print("*",end="")
+    print()
 
-    
