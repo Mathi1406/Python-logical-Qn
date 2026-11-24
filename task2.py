@@ -128,4 +128,14 @@ for number in range(2,n+1):
             count=count+1
     if count==2:
         print(number)
-
+#20. Number Guessing Game 
+secret=25
+guess=0
+while guess!=secret:
+    guess=int(input("Enter the Guess Number:"))
+if guess>secret:
+    print("Too High")
+elif guess<secret:
+    print("Too Low")
+else:
+    print("Correct! You Win!")
