@@ -119,5 +119,13 @@ if original==total:
     print("This is Armstrong Number")
 else:
     print("This is not Armstrong Number")
-
+#19. Prime Numbers up to N 
+n=int(input("Enter the Number:"))
+for number in range(2,n+1):
+    count=0
+    for i in range(1,number+1):
+        if number%i==0:
+            count=count+1
+    if count==2:
+        print(number)
 
