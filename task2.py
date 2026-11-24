@@ -50,3 +50,15 @@ while number>0:
     total=total+1
     number=number//0
 print("Sum of Digit:", total)
+#11. Palindrome Number
+number=int(input("Enter Your Number:"))
+original=number
+reverse=0
+while number>0:
+    digit=number%10
+    reverse=reverse*10+1
+    number=number//10
+if original==reverse:
+    print("Its Palindrome")
+else:
+    print("Its Not Palindrome")
