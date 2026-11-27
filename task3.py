@@ -129,3 +129,10 @@ products={
 }
 for product,price inproducts.items():
     print(f"Product:{product},Price:{price}")
+#13. Write a program that uses setdefault() to group the following names by their first letter: Arun, Anu, Bala, Banu, Kavin, Kumar.
+names=["Arun","Anu","Bala","Kavin","Kumar"]
+groups={}
+for name in names:
+    first_letter=name[0]
+    groups.setdefault(first_letter,[]).append(name)
+print(groups)
