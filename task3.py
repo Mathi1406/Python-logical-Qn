@@ -109,3 +109,15 @@ topper=max(students,key=students.get)
 highest_mark=students[topper]
 print("Topper:",topper)
 print("Highest Marks:",highest_mark)
+#Create a phone book using a dictionary. Allow the user to add a contact, search for a contact, update a phone number, and delete a contact.
+contacts={
+    "Arun":8181818181
+    "Kumar":7171717171
+    "kavin":9191919191
+
+}
+contacts["Ravi"]=8787878787
+print(contacts.get("Arun","Contact Not Found"))
+contacts["Kumar"]=7272727272
+contacts.pop["Arun",None]
+print(contacts)
