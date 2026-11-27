@@ -7,6 +7,7 @@ student={
 }
 for key ,value in student.items():
     print(key,":",value)
+
 #Create a dictionary containing five products and their prices. Ask the user to enter a product name and display its price. If the product does not exist, display a suitable message.
 products={
     "Laptop":45000,"Mouse":500,"Keyboard":1000,"Monitor":12000,"Headphone":1500
@@ -18,3 +19,12 @@ if price is not None:
 else:
     ("Product Not Found")
     
+#3. Given a dictionary of student marks, add a new student, update the marks of an existing student, and print the updated dictionary.
+student={
+    "Arun":80,
+    "kumar":75,
+    ""Ravi":90
+}
+students["Bala"]=85
+students.update[{"kumar:95"}]
+print(students)
