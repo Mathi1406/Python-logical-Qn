@@ -97,3 +97,15 @@ total=sum(marks.values())
 average=total/len(marks)
 print("Total Marks:",total)
 print("Average Marks:",average)
+#Write a program that finds and prints the key with the highest value in a dictionary of student marks.
+students={
+    "Arun":75,
+    "Kumar":90,
+    "Ravi":85,
+    "Bala":95,
+    "Kavin"
+}
+topper=max(students,key=students.get)
+highest_mark=students[topper]
+print("Topper:",topper)
+print("Highest Marks:",highest_mark)
