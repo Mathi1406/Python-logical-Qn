@@ -121,3 +121,12 @@ print(contacts.get("Arun","Contact Not Found"))
 contacts["Kumar"]=7272727272
 contacts.pop["Arun",None]
 print(contacts)
+#Given a dictionary of products and prices, use items() to print each product and price in the format: Product: _, Price: _.
+products={
+    "Laptop":45000,
+    "Mouse":500,
+    "Keyboard"1000
+}
+for product,price inproducts.items():
+    print(f"Product:{product},Price:{ptice}")
+    
