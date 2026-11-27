@@ -176,3 +176,24 @@ else:
     cart[item]=quantity
 print(cart)
 print("Total Quantity:",sum(cart.values()))
+#18. Create a nested dictionary for three students. Each student should have a name, age, and marks dictionary. Print the mark scored by each student in Mathematics.
+student={
+    "student1":{
+    "name":"Arun",
+    "age":20,
+    "marks":{"maths":90,"python:85"}
+    },
+    "student1":{
+    "name":"Devi",
+    "age":22,
+    "marks":{"maths":80,"python:75"}
+    },
+    "student1":{
+    "name":"krishna",
+    "age":20,
+    "marks":{"maths":95,"python:90"}
+    },
+
+}
+for student in students.values():
+    print(student["name"],student["marks"],["Maths"])
