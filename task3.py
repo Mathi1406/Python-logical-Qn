@@ -163,3 +163,16 @@ for names,marks in students.items():
     if mark>=50:
         passed[name]=mark
 print(passed)
+#Write a program that stores shopping-cart items and quantities in a dictionary. Let the user add quantities to an existing item or add a new item, then display the cart total quantity.
+cart={
+    "Rice":2
+    "Sugar":1
+}
+item=input("Enter a Item:")
+quantity=int(input("Enter quantity:"))
+if item in cart:
+    cart[item]+=quantity
+else:
+    cart[item]=quantity
+print(cart)
+print("Total Quantity:",sum(cart.values()))
