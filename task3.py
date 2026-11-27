@@ -37,3 +37,14 @@ for char in text:
     else:
         frequency[char]=1
 print(frequency)
+#Write a program that counts how many times each word appears in a sentence. Ignore differences between uppercase and lowercase letters.
+sentence="Python is easy and python is powerful"
+sentence=sentence.lower()
+words=sentence.split()
+frequency={}
+for word in words:
+    if word in frequency:
+        frequency[word]+1
+    else:
+        frequency[word]=1
+print(frequency)
