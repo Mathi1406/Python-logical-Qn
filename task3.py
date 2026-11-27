@@ -151,3 +151,15 @@ reveresed_dict={}
 for key, value in students.items():
     reversed_dict[value]=key
 print(reversed_dict)
+#Given a dictionary containing student names and marks, create a new dictionary containing only students who scored 50 or more.
+students={
+    "Arun":80
+    "Bala":45
+    "Kumar":90
+    "Ravi":35
+}
+passed={}
+for names,marks in students.items():
+    if mark>=50:
+        passed[name]=mark
+print(passed)
