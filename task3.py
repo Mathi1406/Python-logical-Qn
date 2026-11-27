@@ -48,3 +48,14 @@ for word in words:
     else:
         frequency[word]=1
 print(frequency)
+#Create a dictionary of five employees and their salaries. Print only the employees whose salary is greater than 30000.
+employees={
+    "Mathi":25000,
+    "Nithi":35000,
+    "Devi":40000,
+    "Chandar":28000,
+    "Sakthi":50000
+}
+for name, salary in employees:
+    if salary>30000:
+        print(name,":",salary)
