@@ -56,6 +56,19 @@ employees={
     "Chandar":28000,
     "Sakthi":50000
 }
-for name, salary in employees:
+for name, salary in employees.items():
     if salary>30000:
         print(name,":",salary)
+  #Write a program to merge two dictionaries. If the same key appears in both dictionaries, keep the value from the second dictionary.      
+  dict1={
+    "Name":"Nithi",
+    "age":22,
+    "city":"Chennai"
+  }
+  dict1={
+    "Name":"Devi",
+    "age":25,
+    "city":"Banglore"
+  }
+  dict1.update(dict2)
+  print(dict1)
