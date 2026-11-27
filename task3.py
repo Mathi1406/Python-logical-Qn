@@ -72,3 +72,17 @@ for name, salary in employees.items():
   }
   dict1.update(dict2)
   print(dict1)
+  #Given a dictionary of item names and quantities, use a dictionary method to remove an item entered by the user. Handle the case where the item is not present.
+  items={
+    "Rice":10,
+    "Sugar":5,
+    "Wheat":8,
+    "Oil":4
+  }
+  items=input("Enter item Name")
+  result=items.pop(item,None)
+  if result is not None:
+    print("Item Removed Suessfully")
+else:
+    print("Item Not Found")
+print(items)
