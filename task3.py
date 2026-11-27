@@ -197,3 +197,12 @@ student={
 }
 for student in students.values():
     print(student["name"],student["marks"],["Maths"])
+#Write a function called count_vowels(text) that returns a dictionary containing the count of each vowel in the given text. Do not include vowels with a count of zero.
+def count_vowels(text):
+    vowels={}
+    for char in text.lower():
+        if char in "aeiou":
+            vowels[char]=vowels.get(char,0)+1
+        return vowels
+result=count_vowels("Hello Python Programming")
+print(result)
