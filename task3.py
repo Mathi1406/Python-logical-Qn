@@ -86,3 +86,14 @@ for name, salary in employees.items():
 else:
     print("Item Not Found")
 print(items)
+#Create a dictionary of subjects and marks. Calculate and print the total marks and average mark.
+marks={
+    "Tamil":80,
+    "English":75,
+    "Python":90,
+    "Maths":85
+}
+total=sum(marks.values())
+average=total/len(marks)
+print("Total Marks:",total)
+print("Average Marks:",average)
