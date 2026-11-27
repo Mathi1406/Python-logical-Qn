@@ -136,3 +136,8 @@ for name in names:
     first_letter=name[0]
     groups.setdefault(first_letter,[]).append(name)
 print(groups)
+#14. Create a dictionary from two lists: one containing employee names and another containing their departments. Use zip() to build the dictionary.
+names=["Arun","Bala","Kumar"]
+departments=["HR","IT","Sales"]
+employees=dict(zip(names,departments))
+print(employees)
