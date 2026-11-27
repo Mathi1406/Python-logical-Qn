@@ -28,3 +28,12 @@ student={
 students["Bala"]=85
 students.update[{"kumar:95"}]
 print(students)
+#Write a program that counts the frequency of each character in the string "python programming" using a dictionary.
+text="python programming"
+frequency={}
+for char in text:
+    if char in frequency:
+        frequency[char]+1
+    else:
+        frequency[char]=1
+print(frequency)
