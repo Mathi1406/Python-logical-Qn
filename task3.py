@@ -128,5 +128,4 @@ products={
     "Keyboard"1000
 }
 for product,price inproducts.items():
-    print(f"Product:{product},Price:{ptice}")
-    
+    print(f"Product:{product},Price:{price}")
