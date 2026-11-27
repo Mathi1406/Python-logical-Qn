@@ -206,3 +206,34 @@ def count_vowels(text):
         return vowels
 result=count_vowels("Hello Python Programming")
 print(result)
+#20. Write a simple inventory-management program using a dictionary. Provide a menu to add a product, update its quantity, remove a product, search for a product, and display all products. Continue until the user chooses to exit.
+inventory={
+    "Rice":10,
+    "Sugar":5
+}
+while True:
+    print("\n1.Add")
+    print("2.Remove")
+    print("3.Search")
+    print("4.Display")
+    print("5.Exit")
+    choice=input("Enter choice:")
+    if choice =="1":
+        item=input("enter  item:")
+        quantity=int(input("Enter quantity :"))
+        inventory[item]=quantity
+    elif choice =="2":
+        item=input("enter  item:")
+        quantity=int(input("add quantity"))
+        inventory[item]=quantity
+    elif choice=="3":
+        item=input("enter a item")
+        inventory.pop(name,None)
+    elif choice=="4":
+        item=input("enter a item")
+        print(items.get(name,"Not Found"))
+    elif choice=="5":
+        print(items)
+    elif choice=="6":
+        break
+    print("Final item:",items)
