@@ -141,3 +141,13 @@ names=["Arun","Bala","Kumar"]
 departments=["HR","IT","Sales"]
 employees=dict(zip(names,departments))
 print(employees)
+#15. Write a program to invert a dictionary so that its values become keys and its keys become values. Assume all original values are unique.
+student={
+    "Arun":80,
+    "Bala":90,
+    "Kumar":85
+}
+reveresed_dict={}
+for key, value in students.items():
+    reversed_dict[value]=key
+print(reversed_dict)
